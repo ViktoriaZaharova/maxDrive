@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
+
+    <title>MaxDrive - интернет магазин запасных частей для вашего авто</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="icon" href="img/favicon/favicon.ico">
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000">
+    <!-- Custom Browsers Color End -->
+
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:700|Rubik:400,400i,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+<header class="header">
+    <nav id="menu">
+        <div class="mobile-header">
+            <span>МЕНЮ</span>
+            <div id="close"><img src="img/close-red.png" class="img-responsive" alt=""></div>
+        </div>
+
+        <div class="mobile-body">
+            <ul class="mobile-menu-product">
+                <li><a href="#">Автомобильные масла</a></li>
+                <li><a href="#">Запчасти</a></li>
+                <li><a href="#">Аккумуляторы и аксессуары
+                                для АКБ</a></li>
+                <li><a href="#">Охлаждающие жидкости</a></li>
+                <li><a href="#">Дворники и омыватели</a></li>
+                <li><a href="#">Аксессуары</a></li>
+                <li><a href="#">Система освещения</a></li>
+                <li><a href="#">Краски и материалы</a></li>
+            </ul>
+
+            <ul class="mobile-menu-company">
+                <li><a href="#"> Возврат товара</a></li>
+                <li><a href="#"> Оплата и доставка</a></li>
+                <li><a href="#"> Контакты</a></li>
+                <li><a href="#"> Сертификаты</a></li>
+                <li><a href="#"> Новости и акции</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="header__fixed">
+        <div class="container">
+            <a href="home.html" class="logo"><img src="img/logo.png" class="img-responsive" alt=""></a>
+
+            <div class="block_phone">
+                <a href="tel:+380672383330"><span class="phone-code">(067)</span> 238-33-30</a>
+                <a href="tel:+380733093330"><span class="phone-code">(073)</span> 309-33-30</a>
+                <a href="tel:+380952863330"><span class="phone-code">(095)</span> 286-33-30</a>
+                <a href="tel:+380989088228"><span class="phone-code">(098)</span> 908-82-28 <span
+                        class="text">Viber</span></a>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Возврат товара </a></li>
+                    <li><a href="#">Оплата и доставка </a></li>
+                    <li><a href="#">Контакты </a></li>
+                    <li><a href="#">Сертификаты </a></li>
+                </ul>
+            </nav>
+
+
+            <ul class="list_menu-fix">
+                <li>
+                    <a href="#modal_authorization" class="room open_modal">
+                            <span class="icon icon-entrance">
+                                <img src="img/user.png" class="img-responsive" alt="">
+                            </span>
+                        Войти
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="block_card">
+                            <span class="icon icon-basket">
+                                <img src="img/basket.png" class="img-responsive" alt="">
+                            </span>
+                        <span class="basket-total">0</span>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="header__top">
+        <div class="container">
+            <a href="home.html" class="logo">
+                <img src="img/logo.png" class="img-responsive" alt="">
+                <span>Покупайте выгодно, получайте быстро. <br>Еще дешевле только оптом!</span>
+            </a>
+
+            <div class="block_phone">
+                <a href="tel:+380672383330"><span class="phone-code">(067)</span> 238-33-30</a>
+                <a href="tel:+380733093330"><span class="phone-code">(073)</span> 309-33-30</a>
+                <a href="tel:+380952863330"><span class="phone-code">(095)</span> 286-33-30</a>
+                <a href="tel:+380989088228"><span class="phone-code">(098)</span> 908-82-28 <span
+                        class="text">Viber</span></a>
+                <a href="#call_me_back" class="open_modal">Перезвоните мне</a>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Возврат товара </a></li>
+                    <li><a href="#">Оплата и доставка </a></li>
+                    <li><a href="#">Контакты </a></li>
+                    <li><a href="#">Сертификаты </a></li>
+                </ul>
+            </nav>
+            <a href="#modal_authorization" class="room open_modal">
+                    <span class="icon icon-entrance">
+                        <img src="img/user.png" class="img-responsive" alt="">
+                    </span>
+                Войти
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="header_bottom">
+
+        <div class="container">
+            <div id="mobile_menu">
+                <a href="#menu" class="mobile_mnu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            </div>
+
+
+            <nav class="catalog_menu">
+                <div class="menu-title"><span>Каталог товаров</span></div>
+                <ul class="drop-menu1">
+                    <li><a href="#">Автомобильные масла</a></li>
+                    <li><a href="#">Запчасти</a>
+
+                        <ul class="drop-menu2">
+                            <li><a href="#">Двигатель</a></li>
+                            <li><a href="#">Трансмиссия</a></li>
+                            <li><a href="#">Подвеска и рулевое управление</a></li>
+                            <li><a href="#">Тормоза</a></li>
+                            <li><a href="#">Топливная система</a></li>
+                            <li><a href="#">Электрика и зажигание</a></li>
+                            <li><a href="#">Системы охлаждения и отопления</a></li>
+                            <li><a href="#">Выхлопная система</a></li>
+                            <li><a href="#">Фильтры</a></li>
+                            <li><a href="#">Кузовные детали и составляющие</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#">Аккумуляторы и аксессуары
+                                    для АКБ</a></li>
+                    <li><a href="#">Охлаждающие жидкости</a></li>
+                    <li><a href="#">Дворники и омыватели</a></li>
+                    <li><a href="#">Аксессуары</a></li>
+                    <li><a href="#">Система освещения</a></li>
+                    <li><a href="#">Краски и материалы</a></li>
+                </ul>
+            </nav>
+
+            <div class="block_search">
+                <form method="post" class="search">
+                    <input type="text" name="search" placeholder="Поиск по названию, номеру запчасти, артикулку или VIN"
+                           required>
+                    <button type="submit" class="btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+
+            </div>
+
+            <a href="#" class="vin looking">Вы искали</a>
+            <a href="vin-request.html" class="vin">VIN запрос</a>
+
+            <ul class="menu-mobile">
+                <li>
+                    <span class="btn-mobile-phone"><img src="img/phone-white.png" class="img-responsive" alt=""></span>
+                    <div class="mobile-phone">
+                        <div class="block_phone">
+                            <a href="tel:+380672383330"><span class="phone-code">(067)</span> 238-33-30</a>
+                            <a href="tel:+380733093330"><span class="phone-code">(073)</span> 309-33-30</a>
+                            <a href="tel:+380952863330"><span class="phone-code">(095)</span> 286-33-30</a>
+                            <a href="tel:+380989088228"><span class="phone-code">(098)</span> 908-82-28 <span
+                                    class="text">Viber</span></a>
+                        </div>
+                        <form method="post" class="block_phone-callback">
+                            <div class="input-group-phone">
+                                <span>+38</span>
+                                <input type="text" name="phone" placeholder="(000) 000-00-00" required>
+                            </div>
+                            <button type="submit" class="btn-form">Перезвоните мне</button>
+                        </form>
+                    </div>
+                </li>
+                <li><a href="#modal_authorization" class="open_modal"><img src="img/user.png" class="img-responsive"
+                                                                           alt=""></a>
+                </li>
+
+            </ul>
+
+            <a href="#" class="block_card">
+                    <span class="icon icon-basket">
+                        <img src="img/basket.png" class="img-responsive" alt="">
+                    </span>
+                <span class="basket-total">0</span>
+            </a>
+
+
+        </div>
+    </div>
+
+</header>
+
+<div class="content">
+
+    <section class="short_description">
+        <div class="container">
+
+            <div class="block_left">
+
+                <h4>Ваш автомобиль:</h4>
+                <div class="auto_select-wrap">
+                    <div class="item">
+                        <div class="btn-select">2009 Ford Kuga</div>
+                        <ul class="drop-menu">
+                            <li><a href="#">2009 Ford Kuga</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <span>2.0 Дизель, внедорожник</span>
+                    <span>Код двигателя: UFDA</span>
+                </div>
+
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="links">Добавить в гараж</a>
+                <a href="#" class="links">Мой гараж</a>
+            </div>
+
+
+            <div class="image">
+                <img src="img/auto1.png" class="img-responsive" alt="">
+                <img src="img/auto2.png" class="img-responsive" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <ul class="breadcrumb wrap">
+        <li><a href="home.html">Главная</a></li>
+        <li><a href="search-result.html">Результаты поиска</a></li>
+    </ul>
+
+
+    <section class="text-pages-wrapper search-result">
+        <div class="container">
+            <div class="s-title category-title">
+                <h1>По запросу «<span>Мыло душистое</span>» мы ничего не нашли</h1>
+            </div>
+
+
+            <div class="text-pages-wrapper__content">
+                <div class="text-pages-wrapper__content-text">
+
+                    <p>Попробуйте изменить запрос или обратитесь к нашим консультантам за помощью!</p>
+
+
+                    <div class="block_phone">
+                        <a href="tel:+380672383330"><span class="phone-code">(067)</span> 238-33-30</a>
+                        <a href="tel:+380733093330"><span class="phone-code">(073)</span> 309-33-30</a>
+                        <a href="tel:+380952863330"><span class="phone-code">(095)</span> 286-33-30</a>
+                        <a href="tel:+380989088228"><span class="phone-code">(098)</span> 908-82-28 <span class="text">Viber</span></a>
+                    </div>
+
+                    <form method="post" class="block_phone-callback">
+                        <div class="input-group-phone">
+                            <span>+38</span>
+                            <input type="text" name="phone" placeholder="(000) 000-00-00" required>
+                        </div>
+                        <button type="submit" class="links-btn">Перезвоните мне</button>
+                    </form>
+
+                    <a href="#" class="btn-buy"><span>VIN ЗАПРОС</span></a>
+
+                </div>
+
+                <div class="text-pages-wrapper__content-image">
+                    <div class="image">
+                        <img src="img/search-result.png" class="img-responsive" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <div class="container">
+
+        <div class="footer-item">
+            <div class="block_phone">
+                <a href="tel:+380672383330"><span>(067)</span> 238-33-30</a>
+                <a href="tel:+380733093330"><span>(073)</span> 309-33-30</a>
+                <a href="tel:+380952863330"><span>(095)</span> 286-33-30</a>
+                <a href="tel:+380989088228"><span>(098)</span> 908-82-28 <span class="text">Viber</span></a>
+            </div>
+
+            <a href="mailto:info@MaxDrive.com" class="mail">info@MaxDrive.com</a>
+        </div>
+
+        <div class="footer-item">
+            <div class="address">
+                Украина, Киев, <br>
+                ул. Черняховского 29, оф. 5
+            </div>
+
+            <ul class="schedule">
+                <li><span>Пн-Пт</span> 9:00 - 19:00</li>
+                <li><span>Сб</span> 10:00-13:00</li>
+                <li><span>Вс</span> Выходной</li>
+            </ul>
+
+        </div>
+
+
+        <ul class="footer-item footer-menu">
+            <li><a href="#">Возврат товара</a></li>
+            <li><a href="#">Оплата и доставка</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Сертификаты</a></li>
+            <li><a href="#">Новости и акции</a></li>
+        </ul>
+
+
+        <div class="footer-item">
+            <div class="f-soc">
+                <h3>Присоединяйтесь:</h3>
+                <ul>
+                    <li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="line-logo">
+                <a href="#"><img src="img/icons_rus.png" class="img-responsive" alt=""></a>
+                <a href="https://www.stylepix.net" target="_blank"><img src="img/www.stylepix.net.png"
+                                                                        class="img-responsive" alt=""></a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<div class="modal_div" id="modal_authorization">
+    <span class="modal_close"><img src="img/close.png" class="img-responsive" alt=""></span>
+    <h3>Авторизация</h3>
+
+    <form method="POST" class="form">
+        <div class="input-group phone-wrap">
+            <label>Моб. телефон (логин):</label>
+            <div class="input-group-phone">
+                <span>+38</span>
+                <input type="text" name="phone" placeholder="(000) 000-00-00" required>
+            </div>
+        </div>
+
+        <div class="input-group inp-pass">
+            <label>Пароль: <span class="links">Я забыл пароль</span></label>
+            <input type="password" name="pass" required>
+        </div>
+
+        <div class="input-group inp-btn">
+            <label class="checkbox">
+                <input class="checkbox-inp" type="checkbox" name="checkbox">
+                <span class="checkbox-custom"></span>
+                <span class="label">Запомнить меня</span>
+            </label>
+            <button type="submit" class="btn">Войти</button>
+        </div>
+
+
+    </form>
+
+    <div class="button-group">
+        <a href="#" class="btn-form">Зарегистрироваться</a>
+        <a href="#" class="fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#" class="google"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    </div>
+
+</div>
+<div class="modal_div" id="call_me_back">
+    <span class="modal_close"><img src="img/close.png" class="img-responsive" alt=""></span> <!-- Кнoпкa зaкрыть -->
+    <h3>Перезвоните мне</h3>
+
+    <form method="post" class="block_phone-callback">
+        <div class="input-group-phone">
+            <span>+38</span>
+            <input type="text" name="phone" placeholder="(000) 000-00-00" required>
+        </div>
+        <button type="submit" class="links-btn">жду звонка</button>
+    </form>
+
+</div>
+
+<div id="overlay"></div><!-- Пoдлoжкa -->
+<span class="top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></span>
+
+<script src="js/scripts.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/jquery.equalheights.min.js"></script>
+
+</body>
+</html>
